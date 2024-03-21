@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4e12ac4f9b993743bf567ef187e72f9, type: 3}
+  m_Name: Dialogue1
+  m_EditorClassIdentifier: 
+  personList:
+  - dialogue:
+    - dialogueText: Hi Aku Winner, Salam kenal
+      next: 1
+    - dialogueText: Siapa Namamu?
+      next: 0
+    - dialogueText: Bagaimana Kabarmu Hari ini?
+      next: 0
+    - dialogueText: Baik Juga Insan, Sampai bertemu...
+      next: 0
+  - dialogue:
+    - dialogueText: Halo Namaku Insan
+      next: 0
+    - dialogueText: Baik.
+      next: 1
+    - dialogueText: Kamu?
+      next: 0
+    - dialogueText: Sampai Bertemu Juga WInner...
+      next: 0
