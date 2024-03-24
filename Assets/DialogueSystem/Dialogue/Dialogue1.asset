@@ -12,22 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4e12ac4f9b993743bf567ef187e72f9, type: 3}
   m_Name: Dialogue1
   m_EditorClassIdentifier: 
-  personList:
-  - dialogue:
-    - dialogueText: Hi Aku Winner, Salam kenal
-      next: 1
-    - dialogueText: Siapa Namamu?
-      next: 0
-    - dialogueText: Bagaimana Kabarmu Hari ini?
-      next: 0
-    - dialogueText: Baik Juga Insan, Sampai bertemu...
-      next: 0
-  - dialogue:
-    - dialogueText: Halo Namaku Insan
-      next: 0
-    - dialogueText: Baik.
-      next: 1
-    - dialogueText: Kamu?
-      next: 0
-    - dialogueText: Sampai Bertemu Juga WInner...
-      next: 0
+  charaSprite:
+  - {fileID: 1021355974, guid: 4fed286f912feaf47a162b821b43ad29, type: 3}
+  - {fileID: 964718945, guid: 1ec0c21a2845d144b84ddd4ac6df1682, type: 3}
+  dialogue:
+  - dialogueText: Hi Aku Winner...
+    pick: 0
+  - dialogueText: Siapa Namamu?
+    pick: 0
+  - dialogueText: Hi Namaku Insan....
+    pick: 1
+  - dialogueText: Salam Kenal, Bagaimana Kabarmu?
+    pick: 0
+  - dialogueText: Baik-Baik Saja....
+    pick: 1
+  - dialogueText: Kamu???
+    pick: 1
+  - dialogueText: Baik Juga..., Sampai Bertemu Insan!
+    pick: 0
+  - dialogueText: Sampai Bertemu, Winner...
+    pick: 1

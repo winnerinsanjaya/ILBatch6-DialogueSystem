@@ -5,12 +5,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "DialogueObject", menuName = "DialogueSystem/DialogueObject")]
 public class DialogueObject : ScriptableObject
 {
-    public List<DialogueList> personList;
-}
-
-[System.Serializable]
-public class DialogueList
-{
+    //Membuat List Sprite yang ditampilkan, untuk chara
+    public List<Sprite> charaSprite;
     public List<Dialogue> dialogue;
 }
 
@@ -19,5 +15,8 @@ public class Dialogue
 {
     [TextArea] //agar bentuk string menjadi text area.
     public string dialogueText;
-    public bool next; // agar memungkinan nantinya saat next bakal di orang yang sama.
+
+    //Membuat dropdown menu
+    public enum Characters { Character1 = 0, Character2 = 1, Character3 = 2, Character4 = 3};
+    public Characters pick;
 }
